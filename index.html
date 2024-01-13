@@ -8,9 +8,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <section class="menu">
+        <button id="close-menu">&times;</button>
+    <nav>
+        <ul>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Qualifications">Qualifications</a></li>
+            <li><a href="#Hobbies">Hobbies</a></li>
+            <li><a href="#Technologies">Technologies</a></li>
+            <li><a href="#contact-me">Contact</a></li>    
+        </ul>
+    </nav>
+    </section>
     <header>
-        <nav>
-            <a href="#About">About</a><a href="#Qualifications">Qualifications</a><a href="#Hobbies">Hobbies</a><a href="#Technologies">Technologies</a><a href="#contact-me">Contact</a>
+        <nav class="default-nav">
+            <a href="#About">About Me</a><a href="#Qualifications">Qualifications</a><a href="#Hobbies">Hobbies</a><a href="#Technologies">Technologies</a><a href="#contact-me">Contact</a>
+        </nav>
+        <nav class="mobile-nav">
+            <button id="Menu-button">Menu</button>
         </nav>
     </header>
     <main class="container">
@@ -22,7 +37,7 @@
             <a href="https://instagram.com/_ireoluwaaa" target="_blank"><img width="30" height="30" src="instagram-logo-8869.svg"/></a></p>
        </article>
        <section id="About">
-        <h2>About</h2>
+        <h2>About Me</h2>
         <p> My name is Goodness Ojo and I'm 21 years old. I'm currently on the journey to becoming a full stack developer. I am also an Anatomist.I love sleeping and watching movies<div></div>
             I also love watching football matches.I support a couple of teams but Messi is my favorite player.I love learning new things and I'm really exicted to start this journey.
         </p>
@@ -38,7 +53,7 @@
                 <li>watching movies</li>
                 <li>Baking</li>
             </ul></section>  
-       <section id="Technologies">
+       <section id="Technologies"><h2>Technologies</h2>
                 <table>
                   <tr>
                         <th>Frontend</th>
@@ -80,5 +95,7 @@
         Made with love Goodness
     </footer>
     <script src="main.js"></script>
+    <script src="menu.js"></script>
 </body>
 </html>
+ 
